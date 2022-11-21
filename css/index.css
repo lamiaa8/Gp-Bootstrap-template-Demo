@@ -1,0 +1,439 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@1,700&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+/********* ===>  header  style   <== *******************/
+header{
+    background: url(../img/hero-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    background-attachment: fixed;
+}
+header nav{
+    padding: 1rem;
+    background-color: #33333399;
+    color: #fff;
+    position:fixed;
+    width: 100%;
+    z-index: 1;
+}
+header nav .logo a{
+    color: #fff;
+
+}
+header span{
+    color: #f5b637;
+}
+header nav ul { padding-top: 1rem; justify-content: center;}
+header nav ul li{
+    margin-right: 1rem;
+}
+header nav ul li a{
+    color: #fff;
+    font-size: 18px;
+}
+header nav ul li a:hover{
+    color:#f5b637;
+}
+header nav ul li a:active{
+    color:#f5b637;
+}
+
+.btn-outline-warning {
+    width: 11%;
+    margin: auto;
+    color: #fff;
+    /* border-color: #ffc107; */
+    border: 2px solid #ffc107;
+}
+
+/*********************** dropdown************************/
+
+header nav ul .dropDownLi{
+    margin-left: -1rem;
+    width: auto;
+}
+header nav ul li .dropbtn {
+    font-size: 18px;
+    border: none;
+}
+
+header nav ul li .dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+header nav ul li .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 2;
+}
+
+header nav ul li .dropdown .dropdown-content a {
+    padding: 12px 12px;
+    display: block;
+    color: #000;
+}
+header nav ul li .dropdown .dropdown-content a:hover {color: #f5b637;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+/*********************** dropdown************************/
+
+header section{
+    background-color:rgba(0, 0, 0, 0.556) ;
+    color: #fff;
+    padding-top: 10rem;
+    padding-bottom: 5rem;
+    
+}
+header section .text-center-top{
+    width: 50%;
+    margin: auto;
+    margin-bottom: 5rem;
+}
+header section .text-center-top p{
+    font-family: emoji;
+    font-size: 2rem;
+    letter-spacing: 2px !important;
+    color: #d6d6d1;
+    font-weight: 300;
+
+}
+header section .text-center-top .h1{
+    font-size: 4rem;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+header section .allCard{
+    width: 90%;
+    margin: auto;
+    padding-left: 5rem
+}
+header section .car {
+    position: inherit;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-clip: border-box;
+    border: 1px solid rgb(179 166 166 / 94%);
+    border-radius: 0.25rem;
+    height: 12rem;
+    transition: ease;
+}
+header section .card-body {
+    padding: 2rem
+}
+header section .allCard .car i{
+    color: #ffc107;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+header section .card-body a{
+    color: #fff;
+}
+header section .card-body a:hover{
+    color: #ffc107;
+}
+header section .car:hover{
+    border: 1px solid #ffc107;
+}
+
+/**************************************
+*******************==> main <==********
+***************************************/
+
+/************== about **********/
+main #about{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+main #about .about-top-left h3{
+    font-weight: 800;
+    font-size: 28px;
+    font-family: "Poppins", sans-serif;
+    color: rgba(0, 0, 0, 0.721);
+}
+main #about p{
+    color: #464646b6;
+    font-style: italic;
+}
+main #about li{
+    line-height: 2;
+    color: #464646b6;
+}
+main #about li i{
+    color: #ffc107;
+    font-size: 18px;
+}
+main #about img{
+    width: 100%;
+    height: 100%;
+}
+/*      ***************      */
+main .about-meddle {
+    padding: 5rem 0;
+}
+
+main .about-meddle .owl-carousel{
+    z-index: -1;
+}
+
+
+main .about-meddle .slider-item{
+    width: 6rem;
+    height: 5rem;
+    margin: 1rem;
+    position: relative;
+}
+main .about-meddle .slider-item img{
+    width: 100%;
+    height: auto;
+    filter: grayscale(100);
+
+}
+main .about-meddle .slider-item:hover img{
+    filter: grayscale(0);
+
+}
+
+
+
+/*******************************/
+main .about-botwom{
+    margin-bottom: 3rem;
+}
+main .about-botwom .itim-text {
+    padding-left: 3rem;
+    column-gap: 3rem;
+}
+main .about-botwom .itim-text .total-items {
+    margin-bottom: 1.5em;
+}
+main .about-botwom .itim-text i{
+    font-size: 2rem;
+    padding-top: 2px;
+    color: #ffc107c9;
+}
+main .about-botwom .itim-text .total-items p{
+    letter-spacing: 1px;
+    color: #757070;
+
+}
+main article .abutBotwonImg{
+    width: 100%;
+}
+
+
+
+/**************************************************/
+
+
+
+
+/*transition: all ease-in-out 0.3s;*/
+
+/******** Services*********/
+main #Services .service-header h2 {
+    font-size: 15px;
+    letter-spacing: 1.3px;
+    font-weight: 700;
+    color: rgba(112, 109, 109, 0.627);
+}
+main #Services .service-header h2::after {
+    content: "";
+    width: 120px;
+    height: 1px;
+    display: inline-block;
+    background: #ffc450;
+    margin: 4px 10px;
+}
+main #Services .allCardSevices{
+    margin-bottom: 3em;
+}
+main #Services .service-header p{
+    font-size: 1.9em;
+    margin-top: 4px;
+    font-weight: 600;
+    letter-spacing: 1.3px;
+}
+main #Services .Service-item .card-body {
+    text-align: center;
+    padding: 2em;
+}
+main #Services .Service-item .card-body .icon{
+    color: #090909;
+    background-color: #f5b637;
+    padding: 15px;
+    border-radius: 5px;
+    width: 5rem;
+    font-size: 25px;
+    margin: auto auto 1em auto;
+    
+}
+main #Services .Service-item .card-body a{
+    color: #000;
+    line-height: 2;
+    font-weight: 600;
+    transition: all ease-in-out 0.3s;
+    
+}
+main #Services .Service-item .card-body a:hover {
+    color: #FFC451 !important;
+}
+main #Services .Service-item .card-body p{
+    color: #9fa2a2;
+    letter-spacing: 1px;
+    font-weight: 300;
+    font-size: smaller;
+
+}
+main #Services .Service-item .card {
+    transition: all ease-in-out 0.3s;
+}
+main #Services .Service-item .card:hover{
+    border-color: #fff;
+    box-shadow: 0px 0 25px 0 rgb(0 0 0 / 10%);
+    transform: translateY(-10px);
+    transition: all ease-in-out 0.3s
+}
+/***********************************/
+main .Action{
+    background: url(../img/cta-bg.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+} 
+main .Action .CallToAction{
+    background-color: rgba(0, 0, 0, 0.558);
+    padding: 5em;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    line-height: 2;
+}
+
+main .Action .CallToAction h3, main .Action .CallToAction p{
+    margin-bottom: 2em;
+}
+main .Action .CallToAction .A{
+    border-color: #fff;
+    transition: all ease-in-out 0.3s
+}
+main .Action .CallToAction .A:hover{
+    border-color: rgb(255, 196, 81);
+}
+/*********************************************/
+/*  *****              portfolio    ******   */
+main #Portfolio {
+    margin-top: 5rem;
+
+}
+main #Portfolio .Portfolio-header h2{
+    font-size: 15px;
+    letter-spacing: 1.3px;
+    font-weight: 700;
+    color: rgba(112, 109, 109, 0.627);
+}
+main #Portfolio .Portfolio-header h2::after{
+    content: "";
+    width: 120px;
+    height: 1px;
+    display: inline-block;
+    background: #ffc450;
+    margin: 4px 10px;
+}
+main #Portfolio .Portfolio-header p{
+    font-size: 1.9em;
+    margin-top: 4px;
+    font-weight: 600;
+    letter-spacing: 1.3px;
+}
+
+main #Portfolio .column {
+    flex: 31%;
+    max-width: 31%;
+    padding: 0 4px;
+}
+.k{
+    padding: 1%;
+    width:98% ;
+    overflow: hidden;
+    position: relative;
+}
+main #Portfolio .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    max-width: 100%;
+    height: auto;
+    
+}
+main #Portfolio .column img:hover{
+    transform: scale(1.2);
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+    main #Portfolio .column {
+    flex: 50%;
+    max-width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    main #Portfolio .column {
+    flex: 100%;
+    max-width: 100%;
+    }
+}
+
+
+
+
+
+.overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+}  
+.k img:hover .overlay{
+    opacity: 1;
+}
+
+.text{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
