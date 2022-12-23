@@ -343,17 +343,23 @@ main .Action .CallToAction .A:hover{
 }
 /*********************************************/
 /*  *****              portfolio    ******   */
-main #Portfolio {
+main #Portfolio,
+main #team, 
+main #Content {
     margin-top: 5rem;
 
 }
-main #Portfolio .Portfolio-header h2{
+main #Portfolio .Portfolio-header h2,
+main #team .team-header h2,
+main #Content .Content-header h2{
     font-size: 15px;
     letter-spacing: 1.3px;
     font-weight: 700;
     color: rgba(112, 109, 109, 0.627);
 }
-main #Portfolio .Portfolio-header h2::after{
+main #Portfolio .Portfolio-header h2::after,
+main #team .team-header h2::after,
+main #Content .Content-header h2::after{
     content: "";
     width: 120px;
     height: 1px;
@@ -361,7 +367,9 @@ main #Portfolio .Portfolio-header h2::after{
     background: #ffc450;
     margin: 4px 10px;
 }
-main #Portfolio .Portfolio-header p{
+main #Portfolio .Portfolio-header p, 
+main #team .team-header p,
+main #Content .Content-header p{
     font-size: 1.9em;
     margin-top: 4px;
     font-weight: 600;
@@ -405,10 +413,6 @@ main #Portfolio .column img:hover{
     max-width: 100%;
     }
 }
-
-
-
-
 
 .overlay{
     position: absolute;
